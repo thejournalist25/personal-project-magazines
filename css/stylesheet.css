@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: purple;
+    
+    /* Navigation style begins here*/
+    
+}
+.navigationbar {
+        display: inline-block;
+        float: right;
+        margin-top: 20px;
+        text-decoration: underline;
+        
+}
+
+.nav {
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 50px;
+    text-align: center;
+    overflow: auto;
+    height: 100px;
+}
+
+/* Navigation Style ends here */
+
+a {
+  font-size: 18px;
+    color: black;
+    font-family: sans-serif;  
+    text-decoration: none;
+     padding: 30px;
+     border-bottom: solid black 0px;
+}
+
+
+.container {
+    margin: center;
+}
+
+/* Heading style here */
+
+h1 {
+    color: yellow;
+    text-align: left;
+    display: inline-block;
+    font-family: Merriweather;
+}
+
+.maincontent {
+    margin-top: 100px; 
+    text-align: center;
+    font: cursive;
+    font-size: x-large;
+    border: purple 0px;
+    
+}
+
+.maincontent p {
+    font-family: cursive;
+}
+
+li {
+    text-size: 24px;
+   display: inline-block;
+    float: inherit;
+}
+
+.title {
+    font-family: Garamond, Cursive;
+    width: 250px;
+    height: 350;
+    margin: left;
+    
+}
+
+/* Page 2 style here */
+
+.gonebutnotforgotten {
+    margin-top: 100px;
+    padding: 50px;
+    margin: center;
+    
+}
+
+.gonebutnotforgotten li{
+    text-align: center;
+    color: yellow;
+    font-size: 48px;
+}
+
+/* Page 3 Style here */
+
+.texture {
+    margin-top: 100px;
+    text-align: center;
+}
+    
+.texture p {
+    text-decoration: none;
+    font-size: x-large;
+    font-family: Times;
+}
+
+.subcontent {
+    margin-top: 50px;
+    border: 3px solid black;
+    padding: 50px;
+    float: center;
+}
